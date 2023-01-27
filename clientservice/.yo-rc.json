@@ -1,0 +1,55 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "baseName": "clientservice",
+    "blueprints": [],
+    "buildTool": "maven",
+    "cacheProvider": "redis",
+    "clientFramework": "no",
+    "creationTimestamp": 1674813105414,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entitySuffix": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.9.3",
+    "jwtSecretKey": "ZDhiMTY0Zjc0YTMwYjMyOGE3MTMyMTc4YmRjODlkODRhYTBhZDE0MDExNWM5NjEyN2Y2MDFmMzdlMWY1MjkyMDIzNGM0YTdiYzNlZTZhYmY5YmRmZmE5Y2FkNWEzODlhNmM4ZTFhNzBmZmMyYjFhMjkwYWY4YzZlYTA3MmY2Mjg=",
+    "languages": ["ko", "en"],
+    "messageBroker": "kafka",
+    "microfrontend": false,
+    "microfrontends": [],
+    "monorepository": true,
+    "nativeLanguage": "ko",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kafka",
+        "version": "1.0.1"
+      },
+      {
+        "name": "generator-jhipster-aiggenerator",
+        "version": "0.0.1"
+      }
+    ],
+    "packageName": "com.sharein.client",
+    "pages": [],
+    "prodDatabaseType": "mariadb",
+    "reactive": false,
+    "searchEngine": false,
+    "serverPort": "8002",
+    "serverSideOptions": ["messageBroker:kafka"],
+    "serviceDiscoveryType": "eureka",
+    "skipCheckLengthOfIdentifier": false,
+    "skipClient": true,
+    "skipCommitHook": true,
+    "skipFakeData": false,
+    "skipUserManagement": true,
+    "testFrameworks": ["cypress"],
+    "websocket": false,
+    "withAdminUi": false
+  }
+}
