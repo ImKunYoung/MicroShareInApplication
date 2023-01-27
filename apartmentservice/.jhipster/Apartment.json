@@ -1,0 +1,23 @@
+{
+  "changelogDate": "20230127094238",
+  "clientRootFolder": "apartmentservice",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "microserviceName": "apartmentservice",
+  "name": "Apartment",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
